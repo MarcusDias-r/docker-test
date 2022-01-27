@@ -1,0 +1,24 @@
+// Buildar ambiente docker:
+
+    sudo docker build -t marcusds/docker-pratice .
+
+// Rodar ambiente docker:
+
+    sudo docker run -p 3000:3000 -d marcusds/docker-pratice
+
+// Exibir ambientes virtuais que estão em funcionamento
+
+    sudo docker ps
+
+// Utilizando docker-compose
+
+    sudo docker-compose up 
+    (docker-compose up -d) faz com que o container rode em segundo plano, sendo assim, o terminal é liberado
+
+// Parar container docker
+
+    sudo docker stop <CONTAINER ID>
+
+// Remover container docker
+
+    sudo docker rm <CONTAINER ID>
